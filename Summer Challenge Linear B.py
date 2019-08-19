@@ -76,7 +76,7 @@ def convert(num):
     else:
         ceiling = ceiling + number1
 
-    print(ceiling + "\n" + floor)
+    return(ceiling + "\n" + floor)
 
 
 while denary > 99999 or denary == 0:
